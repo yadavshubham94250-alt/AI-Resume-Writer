@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend/data/*.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.tsupgrader/
+node_modules/
+.npm-cache/
+
+# User content and exports
+uploads/
+exports/
+sample_data/private/
+work/
+outputs/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
